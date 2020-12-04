@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "585464372651",
+    "firebase_url": "https://corres-chat-3581a.firebaseio.com",
+    "project_id": "corres-chat-3581a",
+    "storage_bucket": "corres-chat-3581a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585464372651:android:ad36bff91eae7145e2c6ee",
+        "android_client_info": {
+          "package_name": "com.itschool.buzuverov.corres_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585464372651-33sjvu9u4d0d40u7slccp2sac5ga3km7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUf5OrxNRB-mSbiaYsR475te6CWLBYtBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585464372651-33sjvu9u4d0d40u7slccp2sac5ga3km7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

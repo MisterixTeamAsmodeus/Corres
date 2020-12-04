@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#2C5B6D</color>
+    <color name="colorPrimary">#287288</color>
+    <color name="colorAccent">#BD2C28</color>
+    <color name="colorHeaderRegistry">#3C86A3</color>
+    <color name="colorApplyButton">#C36928</color>
+    <color name="colorAcceptButton">#59C851</color>
+    <color name="colorCancelButton">#EA5D21</color>
+    <color name="colorNotCheckMessage">#833C12</color>
+    <color name="colorTextHint">#558EBB</color>
+    <color name="colorReceiver">#CAEDE6</color>
+    <color name="colorSender">#CAE1FF</color>
+    <color name="colorImageHeader">#671E0A</color>
+    <color name="colorNavigationBackground">#FFFFFF</color>
+    <color name="color_info_message">#7A7F81</color>
+    <color name="color_cheсk_message">#1AC500</color>
+    <color name="colorRipple">#443C86A3</color>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_navigation_chat"
+        android:icon="@drawable/ic_message"
+        android:title="Chats">
+    </item>
+
+    <item
+        android:id="@+id/menu_navigation_requests"
+        android:icon="@drawable/ic_requests"
+        android:title="Requests"
+        app:actionLayout="@layout/menu_counter">
+    </item>
+
+    <item
+        android:id="@+id/menu_navigation_friends"
+        android:icon="@drawable/ic_friends"
+        android:title="Friends">
+    </item>
+
+    <item
+        android:id="@+id/menu_navigation_find_friends"
+        android:icon="@drawable/ic_search"
+        android:title="Find Friends">
+    </item>
+
+    <item
+        android:id="@+id/menu_navigation_setting"
+        android:icon="@drawable/ic_settings"
+        android:title="Setting">
+    </item>
+
+    <item
+        android:id="@+id/menu_navigation_logout"
+        android:icon="@drawable/ic_close"
+        android:title="Logout">
+    </item>
+
+</menu>

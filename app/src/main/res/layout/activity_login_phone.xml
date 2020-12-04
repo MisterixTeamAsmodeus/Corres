@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginPhoneActivity">
+
+  <include android:id="@+id/login_phone_toolbar"
+      layout="@layout/toolbar_main"/>
+
+  <ScrollView
+      android:layout_below="@id/login_phone_toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignParentStart="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:id="@+id/login_phone_background"
+          android:layout_width="match_parent"
+          android:layout_height="220dp"
+          android:layout_marginTop="-20dp"
+          android:background="@drawable/background_login_main">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_login"
+            android:scaleType="fitCenter">
+        </ImageView>
+
+      </RelativeLayout>
+
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/login_phone_input_layout_phone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_below="@id/login_phone_background"
+          android:hint="@string/login_phone_hint_number"
+          android:padding="10dp"
+          android:layout_marginTop="25dp"
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="20dp"
+          app:boxBackgroundMode="outline"
+          app:startIconDrawable="@drawable/ic_phone"
+          app:boxStrokeColor="@color/colorAccent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_phone_input_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:inputType="phone"
+            android:textSize="20sp" />
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:enabled="false"
+          android:id="@+id/login_phone_input_layout_code"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:visibility="gone"
+          android:layout_below="@id/login_phone_input_layout_phone"
+          android:hint="@string/login_phone_hint_code"
+          android:inputType="textPassword"
+          android:padding="10dp"
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="20dp"
+          app:startIconDrawable="@drawable/ic_login"
+          app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_phone_input_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@null"
+            android:textSize="20sp"/>
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <Button
+          android:id="@+id/login_phone_send_code_buttons"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/login_phone_input_layout_code"
+          android:padding="5dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:text="@string/login_phone_button_send"
+          android:textAllCaps="false"
+          android:textSize="25sp"
+          android:background="@drawable/background_accept_button"
+          android:textColor="@android:color/white"/>
+
+      <Button
+          android:id="@+id/login_phone_check_code_buttons"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/login_phone_send_code_buttons"
+          android:padding="5dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:text="@string/login_phone_button_check"
+          android:visibility="gone"
+          android:textAllCaps="false"
+          android:textSize="25sp"
+          android:enabled="false"
+          android:background="@drawable/background_accept_button"
+          android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+  </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Activity.SettingActivity">
+
+    <include android:id="@+id/settings_toolbar"
+        layout="@layout/toolbar_main"/>
+
+    <com.github.siyamed.shapeimageview.CircularImageView
+        android:id="@+id/setting_user_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/profile_image"
+        android:layout_below="@id/settings_toolbar"
+        app:siBorderWidth="1dp"
+        app:siBorderColor="@android:color/white"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true">
+    </com.github.siyamed.shapeimageview.CircularImageView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/setting_user_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_user_image"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="@string/setting_hint_name"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/colorAccent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/setting_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:background="@null"
+            android:textSize="20sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/setting_user_status_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_user_name_layout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginRight="15dp"
+        android:hint="@string/setting_hint_status"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/colorAccent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/setting_user_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:padding="15dp"
+            android:background="@null"
+            android:textSize="20sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/setting_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_user_status_layout"
+        android:layout_marginTop="15dp"
+        android:text="@string/setting_button_update"
+        android:textColor="@android:color/white"
+        android:background="@drawable/background_accept_button"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:padding="16dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/settings_not_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_update"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:text="@string/setting_hint_not_update"
+        android:textAlignment="center"
+        android:textColor="@color/colorHeaderRegistry"
+        android:textSize="17sp"
+        android:textStyle="bold">
+    </TextView>
+
+</RelativeLayout>

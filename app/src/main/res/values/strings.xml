@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Corres</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="request_fragment_text_info">У вас нет пока запросов.</string>
+    <string name="name_file_dialog_document">Документы</string>
+    <string name="name_file_dialog_image">Изображение</string>
+    <string name="request_accept">Принять</string>
+    <string name="request_cancel">Отклонить</string>
+    <string name="request_cancel_my_request">Отменить запрос</string>
+    <string name="chat_editing">Редактирование</string>
+    <string name="chat_hint_message">Введите сообщение…</string>
+    <string name="hint_search">Имя пользователя</string>
+    <string name="login_phone_hint_number">Номер телефона</string>
+    <string name="login_phone_hint_code">Код подтверждения</string>
+    <string name="login_phone_button_send">Получить код</string>
+    <string name="login_phone_button_check">Проверить код</string>
+    <string name="new_chat_text_info">У вас нет друзей…</string>
+    <string name="setting_hint_name">Имя пользователя</string>
+    <string name="setting_hint_status">Статус пользователя</string>
+    <string name="setting_button_update">Обновить</string>
+    <string name="setting_hint_not_update">Не обновлять</string>
+    <string name="new_account_apply">Применить</string>
+    <string name="splash_screen_text_info">Добро пожаловать в Corres</string>
+    <string name="dialog_delete_hint">Удалить сообщение?</string>
+    <string name="dialog_delete_check">Удалить для всех?</string>
+    <string name="dialog_delete_hint_delete">Удалить</string>
+    <string name="dialog_delete_hint_cancel">Отмена</string>
+    <string name="fragment_chat_text_info">У вас нет переписок с вашими друзьями, нажмите на кнопку чтобы начать переписку.</string>
+    <string name="fragment_friends_text_info">У вас нет друзей, нажмите на кнопку чтобы найти их.</string>
+</resources>
